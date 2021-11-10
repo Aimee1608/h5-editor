@@ -87,8 +87,6 @@
     }
   },
   "lint-staged":{
-    "*.{js,jsx,tsx}": [
-      "eslint --fix"
-    ]
+    "*.tsx": "eslint --fix"
   }
 }
