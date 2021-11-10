@@ -1,5 +1,5 @@
 {
-  "name": "my-editor",
+  "name": "h5-editor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -87,6 +87,8 @@
     }
   },
   "lint-staged":{
-    "*.tsx":"eslint --fix"
+    "*.{js,jsx,tsx}": [
+      "eslint --fix"
+    ]
   }
 }
